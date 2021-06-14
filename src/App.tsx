@@ -1,5 +1,5 @@
-function App() {
-  return <h1>Álvaro Bianor</h1>;
-}
+import Home from "./pages/homes";
 
-export default App;
+export default function App() {
+  return <Home />;
+}
