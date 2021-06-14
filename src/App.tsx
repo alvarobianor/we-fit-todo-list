@@ -1,5 +1,10 @@
-import Home from "./pages/homes";
+import { TodoProvider } from "./hooks/useTodo";
+import Home from "./pages/Home";
 
 export default function App() {
-  return <Home />;
+  return (
+    <TodoProvider>
+      <Home />
+    </TodoProvider>
+  );
 }
