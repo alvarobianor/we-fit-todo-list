@@ -1,18 +1,14 @@
 import EmptyContent from "../EmptyContent";
+import Item from "../Item";
 import * as S from "./styles";
-export default function Panel() {
+export default function ListTodos() {
   return (
     <>
       <S.Container>
-        {/* {1 + 2 === 4 && <EmptyContent />} */}
+        {1 + 2 === 4 && <EmptyContent />}
         <S.Content>
-          <S.Square />
-          <S.Square />
-          {/* <S.Square />
-          <S.Square />
-          <S.Square />  
-          <S.Square />
-          <S.Square /> */}
+          <Item />
+          <Item />
         </S.Content>
       </S.Container>
     </>

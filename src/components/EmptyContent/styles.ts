@@ -7,9 +7,4 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: var(--backgroundGray);
-
-  p {
-    color: var(--textGray);
-    font-size: 0.75rem;
-  }
 `;
