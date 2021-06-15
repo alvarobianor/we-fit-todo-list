@@ -6,7 +6,6 @@ import { useTodo } from "../../hooks/useTodo";
 export default function ListTodos() {
   const { Todo } = useTodo();
 
-  console.log("Opaaaaaaa: ", Todo);
   return (
     <>
       <S.Container>
